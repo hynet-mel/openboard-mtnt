@@ -19,16 +19,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="english_ime_name" translatable="false">OpenBoard</string>
+    <string name="english_ime_name" translatable="false">OpenBoard+MTBT</string>
     <!-- Name of Android spell checker service. AOSP(Android Open Source Project) should not be translated.
          This resource should be copied from msgid="511950477199948048" -->
-    <string name="spell_checker_service_name">OpenBoard Spell Checker</string>
+    <string name="spell_checker_service_name">OpenBoard+MTBT Spell Checker</string>
     <!-- Title for Android Keyboard settings screen. AOSP(Android Open Source Project) should not be translated.
          This resource should be copied from msgid="423615877174850267" -->
-    <string name="english_ime_settings">OpenBoard Settings</string>
+    <string name="english_ime_settings">OpenBoard+MTBT Settings</string>
     <!-- Title for the spell checking service settings screen. AOSP(Android Open Source Project) should not be translated.
          This resource should be copied from msgid="2970535894327288421" -->
-    <string name="android_spell_checker_settings">OpenBoard Spell Checker Settings</string>
+    <string name="android_spell_checker_settings">OpenBoard+MTBT Spell Checker Settings</string>
 
 
     <!-- Title for Latin keyboard input options dialog [CHAR LIMIT=25] -->
@@ -361,7 +361,7 @@ disposition that offers additional keys, but smaller keys compared to other comm
 mobile devices. [CHAR LIMIT=25] -->
     <string name="subtype_no_language_pcqwerty">Alphabet (PC)</string>
     <!-- Description for Emoji keyboard subtype [CHAR LIMIT=25] -->
-    <string name="subtype_emoji">Emoji</string>
+    <string name="subtype_emoji">MTNT Emoji</string>
 
     <!-- Title of the preference settings for switching keyboard theme [CHAR LIMIT=35] -->
     <string name="keyboard_theme">Keyboard theme</string>

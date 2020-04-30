@@ -17,7 +17,7 @@
 
 <!-- Note: This emoji code point list is valid on KLP and later (API >= 19).
      There is another emoji code point list for JB-MR2 under res/xml/values and values-v18.-->
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <array
         name="emoji_nature"
         format="string"
@@ -205,6 +205,84 @@
         name="emoji_symbols"
         format="string"
     >
+        <!-- MTNT EDIT: Prideflags-->
+        <item>101670</item>
+        <item>101671</item>
+        <item>101672</item>
+        <item>101673</item>
+        <item>101674</item>
+        <item>101675</item>
+        <item>101676</item>
+        <item>101677</item>
+        <item>101678</item>
+        <item>101678</item>
+        <item>101679</item>
+        <item>10167a</item>
+        <item>10167b</item>
+        <item>10167c</item>
+        <item>10167d</item>
+        <item>10167e</item>
+        <item>10167f</item>
+        <item>101680</item>
+        <item>101681</item>
+        <item>101682</item>
+        <item>101683</item>
+        <item>101684</item>
+        <item>101685</item>
+        <item>101686</item>
+        <!-- END -->
+        <!-- MTNT EDIT: Modifiers-->
+        <!-- Colors -->
+        <item>101600</item>
+        <item>101601</item>
+        <item>101602</item>
+        <item>101603</item>
+        <item>101604</item>
+        <item>101605</item>
+        <item>101606</item>
+        <item>101607</item>
+        <item>101608</item>
+        <item>101609</item>
+        <item>10160a</item>
+        <item>10160b</item>
+        <item>10160c</item>
+        <item>10160d</item>
+        <item>10160e</item>
+        <item>10160f</item>
+        <item>101610</item>
+        <item>101611</item>
+        <item>101612</item>
+        <item>101613</item>
+        <item>101614</item>
+        <item>101615</item>
+        <item>101616</item>
+        <item>101617</item>
+        <item>101618</item>
+        <item>101619</item>
+        <item>10161a</item>
+        <item>10161b</item>
+        <item>10161c</item>
+        <item>10161d</item>
+        <item>10161e</item>
+        <item>10161f</item>
+        <item>101620</item>
+        <item>101621</item>
+        <item>101622</item>
+        <item>101623</item>
+        <item>101624</item>
+        <item>101625</item>
+        <item>101626</item>
+        <item>101627</item>
+        <item>101628</item>
+        <item>101629</item>
+        <item>10162a</item>
+        <item>10162b</item>
+        <item>10162c</item>
+        <!-- Morph modifiers -->
+        <item>101650</item>
+        <item>101651</item>
+        <item>101652</item>
+        <!-- END -->
         <item>fe82e|0031,20e3|99</item> <!-- TODO: fix support min sdk version (99) -->
         <item>fe82f|0032,20e3|99</item> <!-- TODO: fix support min sdk version (99) -->
         <item>fe830|0033,20e3|99</item> <!-- TODO: fix support min sdk version (99) -->
@@ -434,8 +512,7 @@
     </array>
     <array
         name="emoji_faces"
-        format="string"
-    >
+        format="string" tools:ignore="InconsistentArrays">
         <item>263a</item>
         <item>1f60a</item>
         <item>1f600</item>
@@ -510,37 +587,54 @@
         <item>1f63f</item>
         <item>1f63e</item>
         <item>1f640</item>
-        <item>1f648</item>
-        <item>1f649</item>
-        <item>1f64a</item>
+<!--        <item>1f648</item>-->
+<!--        <item>1f649</item>-->
+<!--        <item>1f64a</item>-->
         <item>1f4a9</item>
-        <item>1f476</item>
-        <item>1f466</item>
-        <item>1f467</item>
-        <item>1f468</item>
-        <item>1f469</item>
-        <item>1f474</item>
-        <item>1f475</item>
-        <item>1f48f</item>
-        <item>1f491</item>
-        <item>1f46a</item>
-        <item>1f46b</item>
-        <item>1f46c</item>
-        <item>1f46d</item>
+        <!-- MTNT EDIT: Smileys-->
+        <item>101690</item>
+        <item>101691</item>
+        <item>101692</item>
+        <item>101693</item>
+        <item>101694</item>
+        <item>101695</item>
+        <item>101696</item>
+        <item>101697</item>
+        <item>101698</item>
+        <item>101699</item>
+        <item>10169A</item>
+        <item>10169B</item>
+        <item>10169C</item>
+        <item>10169D</item>
+        <item>101666</item>
+        <!-- END -->
+<!--        <item>1f476</item>-->
+<!--        <item>1f466</item>-->
+<!--        <item>1f467</item>-->
+<!--        <item>1f468</item>-->
+<!--        <item>1f469</item>-->
+<!--        <item>1f474</item>-->
+<!--        <item>1f475</item>-->
+<!--        <item>1f48f</item>-->
+<!--        <item>1f491</item>-->
+<!--        <item>1f46a</item>-->
+<!--        <item>1f46b</item>-->
+<!--        <item>1f46c</item>-->
+<!--        <item>1f46d</item>-->
         <item>1f464</item>
         <item>1f465</item>
-        <item>1f46e</item>
+<!--        <item>1f46e</item>-->
         <item>1f477</item>
         <item>1f481</item>
-        <item>1f482</item>
-        <item>1f46f</item>
-        <item>1f470</item>
-        <item>1f478</item>
-        <item>1f385</item>
-        <item>1f47c</item>
-        <item>1f471</item>
-        <item>1f472</item>
-        <item>1f473</item>
+<!--        <item>1f482</item>-->
+<!--        <item>1f46f</item>-->
+<!--        <item>1f470</item>-->
+<!--        <item>1f478</item>-->
+<!--        <item>1f385</item>-->
+<!--        <item>1f47c</item>-->
+<!--        <item>1f471</item>-->
+<!--        <item>1f472</item>-->
+<!--        <item>1f473</item>-->
         <item>1f483</item>
         <item>1f486</item>
         <item>1f487</item>
@@ -1172,6 +1266,13 @@
         <item>┬─┬</item>
         <item>︵ /(</item>
         <item>.□.\\</item>
+        <!--Mel's custom emoticons-->
+        <item>uwu</item>
+        <item>UwU</item>
+        <item>owo</item>
+        <item>OwO</item>
+        <item>/  v  \</item>
+
     </array>
     <array
         name="emoji_eight_symbols"
@@ -5441,5 +5542,10 @@
         <item>1F3F4,E0067,E0062,E0065,E006E,E0067,E007F</item>
         <item>1F3F4,E0067,E0062,E0073,E0063,E0074,E007F</item>
         <item>1F3F4,E0067,E0062,E0077,E006C,E0073,E007F</item>
+    </array>
+    <array
+        name="emoji_mtnt"
+        format="string"
+        >
     </array>
 </resources>

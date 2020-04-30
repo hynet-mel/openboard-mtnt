@@ -13,10 +13,10 @@
 # limitations under the License.
 
 LATIN_IME_JNI_SRC_FILES := \
-    org_dslul_openboard_inputmethod_keyboard_ProximityInfo.cpp \
-    org_dslul_openboard_inputmethod_latin_BinaryDictionary.cpp \
-    org_dslul_openboard_inputmethod_latin_BinaryDictionaryUtils.cpp \
-    org_dslul_openboard_inputmethod_latin_DicTraverseSession.cpp \
+    org_mel_openboardmtnt_inputmethod_keyboard_ProximityInfo.cpp \
+    org_mel_openboardmtnt_inputmethod_latin_BinaryDictionary.cpp \
+    org_mel_openboardmtnt_inputmethod_latin_BinaryDictionaryUtils.cpp \
+    org_mel_openboardmtnt_inputmethod_latin_DicTraverseSession.cpp \
     jni_common.cpp
 
 LATIN_IME_CORE_SRC_FILES := \
