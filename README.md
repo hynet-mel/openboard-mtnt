@@ -1,5 +1,9 @@
 # OpenBoard + MTNT standard emojis
 
+**Disclaimer: Due to the nature of Mutant Standard font and their placement in the PUA area of Unicode, it's not suggested to use this input in any scenario where screenreaders might be involved. They will be narrated as gibberish and will not be comprehensible for people who rely on such devices. Please use them in a careful and considerate way**
+
+This app is best used asside of the [Mutant Standard magisk module](https://github.com/hynet-mel/mutantstandard_magisk)
+
 ![](images/feature.png)
 
 100% FOSS keyboard, based on AOSP.
