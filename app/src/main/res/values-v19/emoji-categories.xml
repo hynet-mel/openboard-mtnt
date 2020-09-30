@@ -205,6 +205,8 @@
         name="emoji_symbols"
         format="string"
     >
+        <!-- Trans flag! -->
+        <item>1F3F3,FE0F,200D,26A7,FE0F</item>
         <!-- MTNT EDIT: Prideflags-->
         <item>101670</item>
         <item>101671</item>
@@ -1019,6 +1021,8 @@
         name="emoji_flags"
         format="string"
     >
+        <!-- Trans flag! -->
+        <item>1F3F3,FE0F,200D,26A7,FE0F</item>
         <!-- MTNT EDIT: Prideflags-->
         <item>101670</item>
         <item>101671</item>
@@ -1302,6 +1306,8 @@
         name="emoji_eight_symbols"
         format="string"
     >
+        <!-- Trans flag! -->
+        <item>1F3F3,FE0F,200D,26A7,FE0F</item>
         <!-- transport-sign -->
         <item>1F3E7</item>
         <item>1F6AE</item>
